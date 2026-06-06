@@ -11,7 +11,13 @@
 
 Resume Upload → AI Analysis → ATS Score → Database → Shortlisting
 
-## Screenshots
+## Installation
+
+```bash
+git clone https://github.com/Bhargavi2809/resume_parser.git
+cd resume_parser
+pip install -r requirements.txt
+python telegram_bot.py
 
 
 
