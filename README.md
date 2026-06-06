@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI-powered Resume Parser Bot that automatically analyzes resumes uploaded through Telegram, extracts candidate information, calculates ATS scores, ranks candidates, and stores data in Excel and SQL databases.
+AI-powered Resume Parser Bot that automatically analyzes resumes uploaded through Telegram, extracts candidate information, calculates ATS scores, and stores data in Excel and SQL databases.
 
 ---
 
@@ -13,8 +13,6 @@ AI-powered Resume Parser Bot that automatically analyzes resumes uploaded throug
 * AI-Powered Resume Analysis
 * Skill Extraction
 * ATS Score Calculation
-* Fresher/Experienced Detection
-* Candidate Ranking
 * Excel Data Storage
 * SQL Database Integration
 * Automated Shortlisting
@@ -76,18 +74,16 @@ python telegram_bot.py
 ```text
 📄 RESUME ANALYSIS COMPLETE
 
-👤 Name: Rahul Sharma
-📧 Email: rahul.sharma@gmail.com
-📱 Phone: +91-9876543210
+👤 Name: Riya Talwar
+📧 Email: riya.talwar@gmail.com
+📱 Phone: 9876543210
 
-🧠 Skills:
-Python, SQL, Excel, Power BI
+✅ Matched: sql, excel, pandas, python, nlp, machine learning
+❌ Missing: power bi
 
-📊 ATS Score: 80%
-
-📌 Candidate Type: Experienced
-🎯 Shortlist Status: Selected
-```
+📊 Score: 86%
+📌 Status: Strong Match
+🎯 Shortlist: Shortlisted
 
 ## Future Enhancements
 
